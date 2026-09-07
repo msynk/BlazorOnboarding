@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/samples/" />
+  <Folder Name="/samples/BlazorOnboarding.Demo/">
+    <Project Path="samples/BlazorOnboarding.Demo/BlazorOnboarding.Demo.Client/BlazorOnboarding.Demo.Client.csproj" />
+    <Project Path="samples/BlazorOnboarding.Demo/BlazorOnboarding.Demo/BlazorOnboarding.Demo.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/BlazorOnboarding/BlazorOnboarding.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BlazorOnboarding.Tests/BlazorOnboarding.Tests.csproj" />
+  </Folder>
+</Solution>

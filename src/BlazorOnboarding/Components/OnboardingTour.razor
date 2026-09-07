@@ -1,0 +1,8 @@
+@namespace BlazorOnboarding
+
+@* Declarative tour container. Renders no markup of its own: it collects the OnboardingStep
+   children below it into a TourDefinition and registers that with the onboarding service. *@
+
+<CascadingValue Value="this" IsFixed="true">
+    @ChildContent
+</CascadingValue>
