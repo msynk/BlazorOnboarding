@@ -100,7 +100,7 @@ onboarding to break.
 
 ## The quick way
 
-For something local — a debug panel, a page that reacts to a tour — subscribe to the service:
+For something local - a debug panel, a page that reacts to a tour - subscribe to the service:
 
 ```razor
 @implements IDisposable

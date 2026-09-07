@@ -223,8 +223,8 @@ exception.
 
 ## Running more than one tour
 
-Starting a tour cancels any other running one by default. To run several at once — a tour plus a
-persistent hint, say — opt out:
+Starting a tour cancels any other running one by default. To run several at once - a tour plus a
+persistent hint, say - opt out:
 
 ```csharp
 await Onboarding.StartAsync(hint, new StartOptions { StopOthers = false });

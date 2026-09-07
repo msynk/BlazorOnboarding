@@ -145,6 +145,6 @@ the page around it.
 `ProgressFormat` and `StepAnnouncementFormat` are passed through `string.Format` with the current
 culture, so digits are localized the way the rest of your application formats them.
 
-Everything the library generates for CSS — positions, sizes, opacities, durations — is formatted with
+Everything the library generates for CSS - positions, sizes, opacities, durations - is formatted with
 the invariant culture. A comma decimal separator would produce silently broken styles, and that is a
 bug that only shows up for users in another locale.

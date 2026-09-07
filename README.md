@@ -3,7 +3,7 @@
 A native Blazor onboarding and user-guidance library: product tours, spotlights, tooltips,
 contextual hints and full application walkthroughs, written in C# and Razor.
 
-It is not a wrapper. There is no JavaScript tour engine underneath — the browser layer is a single
+It is not a wrapper. There is no JavaScript tour engine underneath - the browser layer is a single
 small module that measures elements, watches them for movement, scrolls, and routes keyboard events.
 Every decision about what to show, when to show it, and where to put it is made in C#.
 
@@ -28,7 +28,7 @@ Every decision about what to show, when to show it, and where to put it is made 
 - **Multi-step tours** with progress indicators, keyboard navigation and resumable state.
 - **Collision-aware positioning** computed in C#: shift before flip, arrow clamping, viewport
   padding, and sane behaviour for targets larger than the screen.
-- **Elements that are not there yet** — wait, skip, centre or fail, per step, driven by a mutation
+- **Elements that are not there yet** - wait, skip, centre or fail, per step, driven by a mutation
   observer rather than a polling timer.
 - **Interactive steps** that advance when the user actually uses the highlighted control.
 - **Conditional and branching flows**, where Back follows the path the user took.

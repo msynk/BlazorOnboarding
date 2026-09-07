@@ -89,7 +89,7 @@ new StepDefinition
 }
 ```
 
-In markup, a step's `ChildContent` is its body, leaving the default header and footer in place — the
+In markup, a step's `ChildContent` is its body, leaving the default header and footer in place - the
 common case:
 
 ```razor
@@ -120,7 +120,7 @@ private async Task OnPlanChanged(string plan)
 ```
 
 Note that replacing the footer removes the close button along with everything else, so make sure
-there is still a way out — or leave `CloseOnEscape` on.
+there is still a way out - or leave `CloseOnEscape` on.
 
 ## Replacing the overlay
 

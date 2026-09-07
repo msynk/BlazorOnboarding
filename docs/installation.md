@@ -83,7 +83,7 @@ application:
 ```
 
 One host is enough for the whole application. Add more only when you deliberately want to render a
-particular session yourself — see [headless rendering](headless.md).
+particular session yourself - see [headless rendering](headless.md).
 
 ## 4. Add `@using BlazorOnboarding`
 

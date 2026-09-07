@@ -113,7 +113,7 @@ new StepDefinition
 ## Going back through a branch
 
 Back follows the **visit history**, not the declaration order. If a user went from `ask` straight to
-`build-path`, pressing Back returns them to `ask` — not to the `design-path` step that happens to sit
+`build-path`, pressing Back returns them to `ask` - not to the `design-path` step that happens to sit
 above `build-path` in the array.
 
 `session.History` exposes the ids visited so far, oldest first.
@@ -145,7 +145,7 @@ new StepDefinition
 ```
 
 Pressing Next simply does nothing while the guard is unsatisfied. To explain *why*, render your own
-message in the step body — the tour re-renders whenever the session changes, and a two-way bound
+message in the step body - the tour re-renders whenever the session changes, and a two-way bound
 field will update it.
 
 For validation that should stop the transition and surface an error, throw from `OnBeforeLeave`

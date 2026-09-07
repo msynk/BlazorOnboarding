@@ -42,7 +42,7 @@ Arrow keys are ignored while focus is in a text input, textarea, select or conte
 that asks the user to type something does not steal their cursor keys.
 
 Key handling is installed on the document in the capture phase, so `Escape` works wherever focus is
-— including inside the application, on a `Free` step.
+- including inside the application, on a `Free` step.
 
 ### Announcements
 

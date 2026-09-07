@@ -26,7 +26,7 @@ If you prefer, there is a helper that splats the same attribute:
 <button @attributes="Onboarding.Anchor("new-project")">New project</button>
 ```
 
-CSS selectors and captured element references work too — see [basic tours](basic-tours.md#targeting).
+CSS selectors and captured element references work too - see [basic tours](basic-tours.md#targeting).
 
 ## 2. Declare the tour
 
@@ -168,7 +168,7 @@ await Onboarding.StartOnceAsync(tour);
 
 ## Where to go next
 
-- [Basic tours](basic-tours.md) — targeting, buttons, per-step options
-- [Dynamic targets](dynamic-targets.md) — elements that render late or never
-- [Conditional and branching flows](conditional-branching.md) — different tours for different users
-- [Theming](theming.md) — make it look like your product
+- [Basic tours](basic-tours.md) - targeting, buttons, per-step options
+- [Dynamic targets](dynamic-targets.md) - elements that render late or never
+- [Conditional and branching flows](conditional-branching.md) - different tours for different users
+- [Theming](theming.md) - make it look like your product

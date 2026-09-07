@@ -114,7 +114,7 @@ If the row may genuinely never return, prefer `Skip`.
 ## Refreshing manually
 
 The observers cover layout changes the browser can see. If your own code changes geometry in a way
-that produces no resize, scroll or mutation — animating a CSS transform, for instance — ask for a
+that produces no resize, scroll or mutation - animating a CSS transform, for instance - ask for a
 fresh measurement:
 
 ```csharp

@@ -77,7 +77,7 @@ lever is `Scroll = ScrollMode.Instant`, which removes the settle-detection frame
 
 Nothing is rendered for steps that are not on screen, so a 50-step tour costs the same per step as a
 3-step one. The plan rebuild is O(steps) per transition, which is only worth thinking about if your
-conditions are expensive — see above.
+conditions are expensive - see above.
 
 ## Things that are already handled
 
@@ -101,7 +101,7 @@ Both synchronous and asynchronous disposal are implemented. Blazor disposes scop
 but plenty of hosts and test frameworks do not, and a service that only supported `IAsyncDisposable`
 would make those throw.
 
-Interop failures during teardown — a dropped circuit, a page unload, prerendering — are treated as
+Interop failures during teardown - a dropped circuit, a page unload, prerendering - are treated as
 expected rather than as errors, so a closing tab never produces an exception in your logs.
 
 ## Measuring it yourself

@@ -41,7 +41,7 @@ matching route, the step is re-activated exactly where it was.
 The library deliberately does not drag the user back. Fighting someone for control of the address bar
 is never the right call, and a user who navigated away usually meant it.
 
-To turn off automatic navigation entirely — so routes are only ever constraints — set:
+To turn off automatic navigation entirely - so routes are only ever constraints - set:
 
 ```csharp
 builder.Services.AddBlazorOnboarding(options => options.AutoNavigateToStepRoute = false);
@@ -97,7 +97,7 @@ Blazor's enhanced navigation replaces the page content without a full load. The 
 `NavigationManager.LocationChanged`, so both enhanced and full navigations are handled the same way.
 
 On a same-page navigation, where the route requirement still matches, the engine takes a fresh
-measurement instead — a query-string change usually means the content underneath the target has been
+measurement instead - a query-string change usually means the content underneath the target has been
 replaced.
 
 Tours run in interactive components. A step whose target lives on a statically rendered page still

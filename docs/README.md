@@ -2,33 +2,33 @@
 
 ## Start here
 
-- **[Getting started](getting-started.md)** — your first tour, end to end
-- **[Installation](installation.md)** — every hosting model, prerendering, CSP
+- **[Getting started](getting-started.md)** - your first tour, end to end
+- **[Installation](installation.md)** - every hosting model, prerendering, CSP
 
 ## Building tours
 
-- **[Basic tours](basic-tours.md)** — declarative and programmatic tours, targeting, buttons, hooks
-- **[Highlighting & contextual help](highlighting.md)** — spotlights, single hints, interaction modes
-- **[Dynamic & async targets](dynamic-targets.md)** — waiting, missing-target strategies, run-time targets
-- **[Conditional & branching flows](conditional-branching.md)** — gates, forks, validation, history
-- **[Multi-page tours](multi-page-tours.md)** — routes, navigation, resuming across pages
+- **[Basic tours](basic-tours.md)** - declarative and programmatic tours, targeting, buttons, hooks
+- **[Highlighting & contextual help](highlighting.md)** - spotlights, single hints, interaction modes
+- **[Dynamic & async targets](dynamic-targets.md)** - waiting, missing-target strategies, run-time targets
+- **[Conditional & branching flows](conditional-branching.md)** - gates, forks, validation, history
+- **[Multi-page tours](multi-page-tours.md)** - routes, navigation, resuming across pages
 
 ## Making it yours
 
-- **[Theming](theming.md)** — CSS variables, dark mode, per-tour skins
-- **[Headless & custom rendering](headless.md)** — templates and complete UI replacement
-- **[Localization & RTL](localization-rtl.md)** — labels, localizers, right-to-left layouts
-- **[Accessibility](accessibility.md)** — what is provided, and what you still own
+- **[Theming](theming.md)** - CSS variables, dark mode, per-tour skins
+- **[Headless & custom rendering](headless.md)** - templates and complete UI replacement
+- **[Localization & RTL](localization-rtl.md)** - labels, localizers, right-to-left layouts
+- **[Accessibility](accessibility.md)** - what is provided, and what you still own
 
 ## Operating it
 
-- **[Persistence](persistence.md)** — stores, resume, versioning, server-side storage
-- **[Events & analytics](events-analytics.md)** — the event stream and observers
-- **[Performance](performance.md)** — what it costs, and how to keep it cheap
+- **[Persistence](persistence.md)** - stores, resume, versioning, server-side storage
+- **[Events & analytics](events-analytics.md)** - the event stream and observers
+- **[Performance](performance.md)** - what it costs, and how to keep it cheap
 
 ## Reference
 
-- **[API reference](api-reference.md)** — every public type and member
+- **[API reference](api-reference.md)** - every public type and member
 
 ## How it fits together
 

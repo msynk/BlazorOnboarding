@@ -1,7 +1,7 @@
 # Theming
 
 Every value in the default look is a CSS custom property under `.bo-root`. Restyling the library is a
-matter of overriding variables in your own stylesheet — no selector fights, no `!important`, and no
+matter of overriding variables in your own stylesheet - no selector fights, no `!important`, and no
 CSS framework to install.
 
 ```css
@@ -75,7 +75,7 @@ brand colour rather than black:
 | `--bo-ease` | `cubic-bezier(0.22, 0.9, 0.3, 1)` | |
 | `--bo-z` | `9000` | Set from `ZIndex` |
 
-Variables written by the engine — `--bo-z`, `--bo-duration`, `--bo-overlay-opacity`, `--bo-arrow` —
+Variables written by the engine - `--bo-z`, `--bo-duration`, `--bo-overlay-opacity`, `--bo-arrow` -
 are set inline on the root element, so a stylesheet rule cannot override them. Change the
 corresponding option instead.
 
@@ -181,4 +181,4 @@ If you would rather write your own, skip the `<link>` and style these hooks:
 
 The popover must remain `position: fixed` with its position applied through the inline `transform`
 the engine sets; everything else is yours. `Unstyled="true"` on the host drops the built-in popover
-classes altogether — see [headless rendering](headless.md).
+classes altogether - see [headless rendering](headless.md).
